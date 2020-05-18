@@ -29,9 +29,15 @@ Local web server will be available on port 3000
 4. if running multiple instance, you can use docker
   - `npm run docker:build`
   - `npm run docker:run` as many times as you want
-  - `npm run docker:urls` to get a list of ip and ports of devices to use on the web
+  - `npm run docker:urls:mac` to get a list of ip and ports of devices to use on the web (Must check something regarding host access before working, use local instead of container until then)
+  - `npm run docker:urls:linux` to get a list of ip and ports of devices to use on the web
   
- ## recording
+## recording
+### Local Setup
+https://youtu.be/4slV-646uGw
+
+### Demo
+https://youtu.be/z6WSoZKsOrs
  
 
 
